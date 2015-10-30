@@ -13,4 +13,5 @@ cd ~/cm/packages/providers/TelephonyProvider && git fetch http://review.cyanogen
 cd ~/cm/packages/providers/TelephonyProvider && git fetch http://review.cyanogenmod.org/CyanogenMod/android_packages_providers_TelephonyProvider refs/changes/15/115815/1 && git cherry-pick FETCH_HEAD
 cd ~/cm/frameworks/base && git fetch http://review.cyanogenmod.org/CyanogenMod/android_frameworks_base refs/changes/94/114594/1 && git cherry-pick FETCH_HEAD
 cd ~/cm/frameworks/base && git fetch http://review.cyanogenmod.org/CyanogenMod/android_frameworks_base refs/changes/54/115754/1 && git cherry-pick FETCH_HEAD
+cd ~/cm/build && git fetch http://review.cyanogenmod.org/CyanogenMod/android_build refs/changes/69/115969/1 && git cherry-pick FETCH_HEAD
 cd ~/cm
