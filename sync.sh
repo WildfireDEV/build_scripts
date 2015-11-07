@@ -48,9 +48,14 @@ cd ~/CM13/hardware/qcom/display-caf/msm8960 && git fetch http://review.cyanogenm
 cd ~/CM13/frameworks/opt/telephony && git fetch http://review.cyanogenmod.org/CyanogenMod/android_frameworks_opt_telephony refs/changes/05/114805/3 && git cherry-pick FETCH_HEAD
 cd ~/CM13/frameworks/opt/telephony && git fetch http://review.cyanogenmod.org/CyanogenMod/android_frameworks_opt_telephony refs/changes/03/114803/3 && git cherry-pick FETCH_HEAD
 cd ~/CM13/frameworks/opt/telephony && git fetch http://review.cyanogenmod.org/CyanogenMod/android_frameworks_opt_telephony refs/changes/06/114806/3 && git cherry-pick FETCH_HEAD
-cd ~/CM13/frameworks/opt/telephony && git fetch http://review.cyanogenmod.org/CyanogenMod/android_frameworks_opt_telephony refs/changes/04/114804/4 && git cherry-pick FETCH_HEAD
-cd ~/CM13/frameworks/opt/telephony &&
-cd ~/CM13/frameworks/opt/telephony &&
+#cd ~/CM13/frameworks/opt/telephony && git fetch http://review.cyanogenmod.org/CyanogenMod/android_frameworks_opt_telephony refs/changes/04/114804/4 && git cherry-pick FETCH_HEAD
+cd ~/CM13/frameworks/opt/telephony && git fetch http://review.cyanogenmod.org/CyanogenMod/android_frameworks_opt_telephony refs/changes/81/114381/1 && git cherry-pick FETCH_HEAD
+cd ~/CM13/frameworks/opt/telephony && git fetch http://review.cyanogenmod.org/CyanogenMod/android_frameworks_opt_telephony refs/changes/31/117231/1 && git cherry-pick FETCH_HEAD
+cd ~/CM13/frameworks/opt/telephony && git fetch http://review.cyanogenmod.org/CyanogenMod/android_frameworks_opt_telephony refs/changes/67/114867/1 && git cherry-pick FETCH_HEAD
+cd ~/CM13/frameworks/opt/telephony && git fetch http://review.cyanogenmod.org/CyanogenMod/android_frameworks_opt_telephony refs/changes/93/117693/2 && git cherry-pick FETCH_HEAD
+cd ~/CM13/frameworks/opt/telephony && git fetch http://review.cyanogenmod.org/CyanogenMod/android_frameworks_opt_telephony refs/changes/24/117924/1 && git cherry-pick FETCH_HEAD
+cd ~/CM13/frameworks/opt/telephony && git fetch http://review.cyanogenmod.org/CyanogenMod/android_frameworks_opt_telephony refs/changes/26/118026/1 && git cherry-pick FETCH_HEAD
+cd ~/CM13/frameworks/opt/telephony && git fetch http://review.cyanogenmod.org/CyanogenMod/android_frameworks_opt_telephony refs/changes/72/114872/4 && git cherry-pick FETCH_HEAD
 
 
 
