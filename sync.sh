@@ -31,6 +31,16 @@ cd ~/CM13/frameworks/av && git fetch http://review.cyanogenmod.org/CyanogenMod/a
 # Build
 cd ~/CM13/build && git fetch http://review.cyanogenmod.org/CyanogenMod/android_build refs/changes/73/117873/2 && git cherry-pick FETCH_HEAD
 
+# Qualcomm Media-CAF
+cd ~/CM13/hardware/qcom/media-caf/msm8960 && git fetch http://review.cyanogenmod.org/CyanogenMod/android_hardware_qcom_media refs/changes/48/117648/2 && git cherry-pick FETCH_HEAD
+cd ~/CM13/hardware/qcom/media-caf/msm8960 &&
+cd ~/CM13/hardware/qcom/media-caf/msm8960 &&
+cd ~/CM13/hardware/qcom/media-caf/msm8960 &&
+cd ~/CM13/hardware/qcom/media-caf/msm8960 &&
+
+
+
+
 
 cd ~/CM13/frameworks/av && git fetch http://review.cyanogenmod.org/CyanogenMod/android_frameworks_av refs/changes/41/114341/2 && git cherry-pick FETCH_HEAD
 cd ~/CM13/system/core && git fetch http://review.cyanogenmod.org/CyanogenMod/android_system_core refs/changes/66/114266/2 && git cherry-pick FETCH_HEAD
