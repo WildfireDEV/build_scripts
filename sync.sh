@@ -39,9 +39,11 @@ cd ~/CM13/hardware/qcom/media-caf/msm8960 && git fetch http://review.cyanogenmod
 cd ~/CM13/hardware/qcom/media-caf/msm8960 && git fetch http://review.cyanogenmod.org/CyanogenMod/android_hardware_qcom_media refs/changes/40/117640/1 && git cherry-pick FETCH_HEAD
 cd ~/CM13/hardware/qcom/media-caf/msm8960 && git fetch http://review.cyanogenmod.org/CyanogenMod/android_hardware_qcom_media refs/changes/39/117639/1 && git cherry-pick FETCH_HEAD
 cd ~/CM13/hardware/qcom/media-caf/msm8960 && git fetch http://review.cyanogenmod.org/CyanogenMod/android_hardware_qcom_media refs/changes/38/117638/1 && git cherry-pick FETCH_HEAD
+cd ~/CM13/hardware/qcom/media-caf/msm8960 && git fetch http://review.cyanogenmod.org/CyanogenMod/android_hardware_qcom_media refs/changes/66/117866/1 && git cherry-pick FETCH_HEAD
 
 # Qualcomm Display-CAF
 cd ~/CM13/hardware/qcom/display-caf/msm8960 && git fetch http://review.cyanogenmod.org/CyanogenMod/android_hardware_qcom_display refs/changes/37/117637/1 && git cherry-pick FETCH_HEAD
+
 
 
 
