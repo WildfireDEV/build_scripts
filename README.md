@@ -1,2 +1,2 @@
-# dev_scripts
-All scripts I use.
+# build_scripts
+All the build scripts I use.
