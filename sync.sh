@@ -33,10 +33,15 @@ cd ~/CM13/build && git fetch http://review.cyanogenmod.org/CyanogenMod/android_b
 
 # Qualcomm Media-CAF
 cd ~/CM13/hardware/qcom/media-caf/msm8960 && git fetch http://review.cyanogenmod.org/CyanogenMod/android_hardware_qcom_media refs/changes/48/117648/2 && git cherry-pick FETCH_HEAD
-cd ~/CM13/hardware/qcom/media-caf/msm8960 &&
-cd ~/CM13/hardware/qcom/media-caf/msm8960 &&
-cd ~/CM13/hardware/qcom/media-caf/msm8960 &&
-cd ~/CM13/hardware/qcom/media-caf/msm8960 &&
+cd ~/CM13/hardware/qcom/media-caf/msm8960 && git fetch http://review.cyanogenmod.org/CyanogenMod/android_hardware_qcom_media refs/changes/47/117647/2 && git cherry-pick FETCH_HEAD
+cd ~/CM13/hardware/qcom/media-caf/msm8960 && git fetch http://review.cyanogenmod.org/CyanogenMod/android_hardware_qcom_media refs/changes/44/117644/2 && git cherry-pick FETCH_HEAD
+cd ~/CM13/hardware/qcom/media-caf/msm8960 && git fetch http://review.cyanogenmod.org/CyanogenMod/android_hardware_qcom_media refs/changes/42/117642/1 && git cherry-pick FETCH_HEAD
+cd ~/CM13/hardware/qcom/media-caf/msm8960 && git fetch http://review.cyanogenmod.org/CyanogenMod/android_hardware_qcom_media refs/changes/40/117640/1 && git cherry-pick FETCH_HEAD
+cd ~/CM13/hardware/qcom/media-caf/msm8960 && git fetch http://review.cyanogenmod.org/CyanogenMod/android_hardware_qcom_media refs/changes/39/117639/1 && git cherry-pick FETCH_HEAD
+cd ~/CM13/hardware/qcom/media-caf/msm8960 && git fetch http://review.cyanogenmod.org/CyanogenMod/android_hardware_qcom_media refs/changes/38/117638/1 && git cherry-pick FETCH_HEAD
+
+# Qualcomm Display-CAF
+cd ~/CM13/hardware/qcom/display-caf/msm8960 && git fetch http://review.cyanogenmod.org/CyanogenMod/android_hardware_qcom_display refs/changes/37/117637/1 && git cherry-pick FETCH_HEAD
 
 
 
