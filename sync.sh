@@ -44,6 +44,14 @@ cd ~/CM13/hardware/qcom/media-caf/msm8960 && git fetch http://review.cyanogenmod
 # Qualcomm Display-CAF
 cd ~/CM13/hardware/qcom/display-caf/msm8960 && git fetch http://review.cyanogenmod.org/CyanogenMod/android_hardware_qcom_display refs/changes/37/117637/1 && git cherry-pick FETCH_HEAD
 
+# Telephony
+cd ~/CM13/frameworks/opt/telephony && git fetch http://review.cyanogenmod.org/CyanogenMod/android_frameworks_opt_telephony refs/changes/05/114805/3 && git cherry-pick FETCH_HEAD
+cd ~/CM13/frameworks/opt/telephony && git fetch http://review.cyanogenmod.org/CyanogenMod/android_frameworks_opt_telephony refs/changes/03/114803/3 && git cherry-pick FETCH_HEAD
+cd ~/CM13/frameworks/opt/telephony && git fetch http://review.cyanogenmod.org/CyanogenMod/android_frameworks_opt_telephony refs/changes/06/114806/3 && git cherry-pick FETCH_HEAD
+cd ~/CM13/frameworks/opt/telephony && git fetch http://review.cyanogenmod.org/CyanogenMod/android_frameworks_opt_telephony refs/changes/04/114804/4 && git cherry-pick FETCH_HEAD
+cd ~/CM13/frameworks/opt/telephony &&
+cd ~/CM13/frameworks/opt/telephony &&
+
 
 
 
