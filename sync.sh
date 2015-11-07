@@ -18,6 +18,19 @@ cd ~/CM13/device/msm8960-common && git fetch http://review.cyanogenmod.org/Cyano
 # CM vendor
 cd ~/CM13/vendor/cm && git fetch http://review.cyanogenmod.org/CyanogenMod/android_vendor_cm refs/changes/36/111336/30 && git cherry-pick FETCH_HEAD
 
+# LibHardware Legacy
+cd ~/CM13/hardware/libhardware_legacy && git fetch http://review.cyanogenmod.org/CyanogenMod/android_hardware_libhardware_legacy refs/changes/29/113229/3 && git cherry-pick FETCH_HEAD
+
+# Frameworks (AV)
+cd ~/CM13/frameworks/av && git fetch http://review.cyanogenmod.org/CyanogenMod/android_frameworks_av refs/changes/68/117868/1 && git cherry-pick FETCH_HEAD
+cd ~/CM13/frameworks/av && git fetch http://review.cyanogenmod.org/CyanogenMod/android_frameworks_av refs/changes/69/117869/1 && git cherry-pick FETCH_HEAD
+cd ~/CM13/frameworks/av && git fetch http://review.cyanogenmod.org/CyanogenMod/android_frameworks_av refs/changes/70/117870/1 && git cherry-pick FETCH_HEAD
+cd ~/CM13/frameworks/av && git fetch http://review.cyanogenmod.org/CyanogenMod/android_frameworks_av refs/changes/71/117871/1 && git cherry-pick FETCH_HEAD
+cd ~/CM13/frameworks/av && git fetch http://review.cyanogenmod.org/CyanogenMod/android_frameworks_av refs/changes/18/118018/1 && git cherry-pick FETCH_HEAD
+
+# Build
+cd ~/CM13/build && git fetch http://review.cyanogenmod.org/CyanogenMod/android_build refs/changes/73/117873/2 && git cherry-pick FETCH_HEAD
+
 
 cd ~/CM13/frameworks/av && git fetch http://review.cyanogenmod.org/CyanogenMod/android_frameworks_av refs/changes/41/114341/2 && git cherry-pick FETCH_HEAD
 cd ~/CM13/system/core && git fetch http://review.cyanogenmod.org/CyanogenMod/android_system_core refs/changes/66/114266/2 && git cherry-pick FETCH_HEAD
