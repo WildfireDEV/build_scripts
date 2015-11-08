@@ -56,15 +56,4 @@ cd ~/CM13/frameworks/opt/telephony && git fetch http://review.cyanogenmod.org/Cy
 cd ~/CM13/frameworks/opt/telephony && git fetch http://review.cyanogenmod.org/CyanogenMod/android_frameworks_opt_telephony refs/changes/24/117924/1 && git cherry-pick FETCH_HEAD
 cd ~/CM13/frameworks/opt/telephony && git fetch http://review.cyanogenmod.org/CyanogenMod/android_frameworks_opt_telephony refs/changes/26/118026/1 && git cherry-pick FETCH_HEAD
 cd ~/CM13/frameworks/opt/telephony && git fetch http://review.cyanogenmod.org/CyanogenMod/android_frameworks_opt_telephony refs/changes/72/114872/4 && git cherry-pick FETCH_HEAD
-
-
-
-
-
-
-cd ~/CM13/frameworks/av && git fetch http://review.cyanogenmod.org/CyanogenMod/android_frameworks_av refs/changes/41/114341/2 && git cherry-pick FETCH_HEAD
-cd ~/CM13/system/core && git fetch http://review.cyanogenmod.org/CyanogenMod/android_system_core refs/changes/66/114266/2 && git cherry-pick FETCH_HEAD
-cd ~/CM13/frameworks/native && git fetch http://review.cyanogenmod.org/CyanogenMod/android_frameworks_native refs/changes/41/114241/8 && git cherry-pick FETCH_HEAD
-cd ~/CM13/hardware/libhardware_legacy && git fetch http://review.cyanogenmod.org/CyanogenMod/android_hardware_libhardware_legacy refs/changes/29/113229/3 && git cherry-pick FETCH_HEAD
-cd ~/CM13/hardware/libhardware && git fetch http://review.cyanogenmod.org/CyanogenMod/android_hardware_libhardware refs/changes/54/112454/3 && git cherry-pick FETCH_HEAD
 cd ~
