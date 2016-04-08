@@ -1,0 +1,9 @@
+<!-- Device trees -->
+<project path="device/samsung/zerofltexx" name="CyanogenMod/android_device_samsung_zerofltexx" revision="cm-13.0" />
+
+<!-- Kernel -->
+<project path="kernel/samsung/exynos7420" name="bmc08gt/kernel_samsung_exynos7420" revision="cm-13.0" />
+
+<!-- Vendor -->
+<project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" revision="cm-13.0" />
+
