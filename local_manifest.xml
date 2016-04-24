@@ -1,4 +1,6 @@
-<!-- Device trees -->
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+!-- Device trees -->
 <project name="CyanogenMod/android_device_samsung_zerofltexx" path="device/samsung/zerofltexx" revision="cm-13.0" />
 <project name="CyanogenMod/android_device_samsung_zero-common" path="device/samsung/zero-common" revision="cm-13.0" />
 <!-- Kernel -->
@@ -15,4 +17,4 @@
 <project name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos5" path="hardware/samsung_slsi-cm/exynos5" revision="cm-13.0" />
 <project name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos7420" path="hardware/samsung_slsi-cm/exynos7420" revision="cm-13.0" />
 <project name="CyanogenMod/android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" revision="cm-13.0" />
-
+</manifest>
