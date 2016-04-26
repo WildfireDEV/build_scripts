@@ -4,11 +4,17 @@
 # To use, simply just run the script before compiling
 #
 
-cd ~/cm/device/oppo/common && git fetch http://review.cyanogenmod.org/CyanogenMod/android_device_oppo_common refs/changes/54/111754/2 && git cherry-pick FETCH_HEAD
-cd ~/cm/device/oppo/common && git fetch http://review.cyanogenmod.org/CyanogenMod/android_device_oppo_common refs/changes/84/116484/1 && git cherry-pick FETCH_HEAD
-cd ~/cm/device/oppo/common && git fetch http://review.cyanogenmod.org/CyanogenMod/android_device_oppo_common refs/changes/94/117294/1 && git cherry-pick FETCH_HEAD
-cd ~/cm/vendor/cm && git fetch http://review.cyanogenmod.org/CyanogenMod/android_vendor_cm refs/changes/36/111336/28 && git cherry-pick FETCH_HEAD
-cd ~/cm/vendor/cm && git fetch http://review.cyanogenmod.org/CyanogenMod/android_vendor_cm refs/changes/51/116051/2 && git cherry-pick FETCH_HEAD
-cd ~/cm/device/oneplus/bacon && git fetch http://review.cyanogenmod.org/CyanogenMod/android_device_oneplus_bacon refs/changes/00/117700/2 && git cherry-pick FETCH_HEAD
-cd ~/cm/device/oneplus/bacon && git fetch http://review.cyanogenmod.org/CyanogenMod/android_device_oneplus_bacon refs/changes/88/117688/1 && git cherry-pick FETCH_HEAD
-cd ~/cm
+# Device Trees
+cd ~/PAC/device/samsung/zero-common && git fetch http://review.cyanogenmod.org/CyanogenMod/android_device_samsung_zero-common refs/changes/59/134959/4 && git cherry-pick FETCH_HEAD
+cd ~/PAC/device/samsung/msm8974-common && git fetch http://review.cyanogenmod.org/CyanogenMod/android_device_samsung_msm8974-common refs/changes/77/112377/2 && git cherry-pick FETCH_HEAD
+
+# Hardware
+cd ~/PAC/hardware/samsung_slsi-cm/exynos7420 && git fetch http://review.cyanogenmod.org/CyanogenMod/android_hardware_samsung_slsi-cm_exynos7420 refs/changes/07/141707/1 && git cherry-pick FETCH_HEAD
+cd ~/PAC/hardware/samsung_slsi-cm/exynos7420 && git fetch http://review.cyanogenmod.org/CyanogenMod/android_hardware_samsung_slsi-cm_exynos7420 refs/changes/44/133744/2 && git cherry-pick FETCH_HEAD
+cd ~/PAC/hardware/samsung_slsi-cm/exynos7420 && git fetch http://review.cyanogenmod.org/CyanogenMod/android_hardware_samsung_slsi-cm_exynos7420 refs/changes/08/141708/3 && git cherry-pick FETCH_HEAD
+cd ~/PAC/hardware/samsung_slsi-cm/openmax && git fetch http://review.cyanogenmod.org/CyanogenMod/android_hardware_samsung_slsi-cm_openmax refs/changes/44/135644/5 && git cherry-pick FETCH_HEAD
+
+# Framework
+cd ~/PAC/frameworks/native && git fetch http://review.cyanogenmod.org/CyanogenMod/android_frameworks_native refs/changes/79/141879/3 && git cherry-pick FETCH_HEAD
+
+cd ~/PAC
